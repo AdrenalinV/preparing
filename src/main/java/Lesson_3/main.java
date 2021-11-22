@@ -20,10 +20,11 @@ public class main {
             e.printStackTrace();
         }
         System.out.println("++++++++++Counter+++++++++++++");
+        Counter count=new Counter();
         for (int i = 0; i < 10; i++) {
             new Thread(() -> {
                 for (int j = 0; j < 100; j++) {
-                    Counter.increment();
+                    count.increment();
                 }
             }).start();
         }
@@ -32,7 +33,7 @@ public class main {
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
-        System.out.println("Counter: " + Counter.getCounter());
+        System.out.println("Counter: " + count.getCounter());
 
     }
 
