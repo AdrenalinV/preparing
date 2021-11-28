@@ -21,4 +21,5 @@ public class main {
             System.out.println(f.calculateArea());
         }
     }
+
 }
