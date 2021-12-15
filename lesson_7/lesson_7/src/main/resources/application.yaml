@@ -1,5 +1,8 @@
 server:
   port: 8080
+  servlet:
+    context-patch: /api/v1
+
 spring:
   datasource:
     driver-class-name: org.h2.Driver
