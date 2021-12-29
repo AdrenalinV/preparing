@@ -4,9 +4,9 @@
 <hibernate-configuration>
     <session-factory>
         <property name="connection.driver_class">org.postgresql.Driver</property>
-        <property name="connection.url">jdbc:postgresql://localhost:5432/lesson_5</property>
-        <property name="connection.username">user_1</property>
-        <property name="connection.password">user_1</property>
+        <property name="connection.url">jdbc:postgresql://localhost:5432/lesson_6</property>
+        <property name="connection.username">gb_user</property>
+        <property name="connection.password">gb_user</property>
         <property name="connection.pool_size">1</property>
         <property name="current_session_context_class">thread</property>
 

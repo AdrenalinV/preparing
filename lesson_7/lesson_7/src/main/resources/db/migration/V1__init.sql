@@ -1,10 +1,10 @@
 DROP TABLE IF EXISTS students;
 CREATE TABLE students (
-    id INT AUTO_INCREMENT PRIMARY KEY,
-    name VARCHAR(50) NOT NULL,
+    id SERIAL PRIMARY KEY,
+    name VARCHAR(30),
     age INT DEFAULT 0);
 
 INSERT INTO students (name, age)
- VALUES ('Petr Ivanov',25),
-    ('Ivan Petrov',22),
-    ('Oly Sidorova',23);
+VALUES ('PETR PETROV',22),
+('IVAN IVANOV',21),
+('ANNA SIDOROVA',18);
